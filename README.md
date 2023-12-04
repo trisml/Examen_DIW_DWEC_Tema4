@@ -1,7 +1,7 @@
 ## POO en JavaScript
 
 
-**Autor:** Tristán Marín López(Alumno)
+**Autor:** **_Tristán Marín López(Alumno)_**
 
 **Repositorio Github**: 
 
