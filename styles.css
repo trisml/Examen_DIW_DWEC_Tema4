@@ -1,0 +1,64 @@
+
+
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(./assets/Oswald-VariableFont_wght.ttf);
+}
+div{
+    background-color: black;
+    text-shadow: 1px 1px red;
+    box-shadow: 1px 1px 1px 1px rgb(255, 0, 0);
+    color: white;
+    padding: 20px 20px;
+    display: block;
+}
+.titulo{
+    color: white;
+    display:grid;
+    place-content: center;
+    border: 2px solid red;
+    padding: 10px 10px;
+    background: black;
+    text-shadow: 2px 2px red;
+    box-shadow: 1px 1px 1px 1px rgb(255, 255, 255);
+    animation: mover 5s linear infinite;
+}
+body{
+    font-family: 'Oswald';
+    width: fit-content;
+    height: fit-content;
+    background-image: url('/assets/nano.jpg');
+    background-size: cover;
+    display: block;
+    
+}
+h1:active{
+    background: yellow;
+}
+
+@keyframes mover{
+    0%{
+        
+        width: 0;
+    }
+    25%{
+        
+        width: 25%;
+    }
+    50%{
+        
+        width: 50%;
+    }
+    75%{
+        
+        width: 75%;
+    }
+    100%{
+        
+        width: 100%;
+    }
+}
+
+
+
