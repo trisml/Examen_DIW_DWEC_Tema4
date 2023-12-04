@@ -1,15 +1,17 @@
+## POO en JavaScript
 
-Autor: Tristán Marín López(Alumno)
 
-Repositorio Github: 
+**Autor:** Tristán Marín López(Alumno)
 
-*Archivos .js*:
+**Repositorio Github**: 
+
+### Archivos .js:
     -main.js
     -vehiculo.js
     -automovilDeportivo.js
 
-*Archivos .html*
+### Archivos .html
     -index.html
 
-*Archivos .css*
+### Archivos .css
     -styles.css
