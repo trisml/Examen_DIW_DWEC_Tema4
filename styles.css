@@ -6,23 +6,31 @@
     src: url(./assets/Oswald-VariableFont_wght.ttf);
 }
 div{
-    background-color: black;
+    display:grid;
+    place-content: center;
+    background: linear-gradient(rgb(98, 98, 232),rgb(48, 188, 142), rgb(3, 215, 100));
     text-shadow: 1px 1px red;
-    box-shadow: 1px 1px 1px 1px rgb(255, 0, 0);
-    color: white;
+    box-shadow: 3px 4px 4px 1px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 20px 20px;
-    display: block;
+    border-radius: 3%;
+    
+}
+div:hover{
+    animation: myAnim2 4s ease 0s 1 normal forwards;
 }
 .titulo{
     color: white;
     display:grid;
     place-content: center;
+    height: fit-content;
     border: 2px solid red;
     padding: 10px 10px;
-    background: black;
+    background: linear-gradient(white,grey,black);
     text-shadow: 2px 2px red;
-    box-shadow: 1px 1px 1px 1px rgb(255, 255, 255);
-    animation: mover 5s linear infinite;
+    box-shadow: 1px 2px 2px 1px rgb(242, 164, 164);
+    animation: mover 8s linear infinite alternate;
+    border-radius: 20%;
 }
 body{
     font-family: 'Oswald';
@@ -34,12 +42,12 @@ body{
     
 }
 h1:active{
-    background: yellow;
+    background: linear-gradient(rgb(98, 98, 232),rgb(48, 188, 142), rgb(3, 215, 151));
 }
 
 @keyframes mover{
     0%{
-        
+        overflow: hidden;
         width: 0;
     }
     25%{
@@ -56,8 +64,36 @@ h1:active{
     }
     100%{
         
-        width: 100%;
+        width: 94%;
     }
+}
+
+@keyframes myAnim2 {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
 }
 
 
